@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/9c4803fc87.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="al">
+    <div class="container">
+        <div class="top">
+            <h2>Create Account</h2>
+            <p><small>Get started with your free account</small></p>
+            <div class="click-login">
+            <img src="https://img.icons8.com/color/24/000000/twitter-circled--v1.png"/>
+            Login via Twitter<br/>
+            </div>
+            <div class="click-login" id="fb">
+            <img src="https://img.icons8.com/color-glass/24/000000/facebook.png"/>Login via Facebook<br/>
+            </div>
+         <p>OR</p>
+            </div>
+        <form id="signup">
+            <div class="input-group mb-3">
+                 <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"></i></span>
+            </div>
+            <input type="text" class="form-control" id="username" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                <small></small>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-envelope"></i></span>
+            </div>
+            <input type="text" class="form-control" id="email" placeholder="Email Address" aria-label="Username" aria-describedby="basic-addon1">
+            <small></small>
+        </div>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
+        </div>
+        <select class="custom-select mr-sm-2">
+            <option>+84</option>
+            <option>+123</option>
+            <option>+12</option>
+        </select>
+        <input type="text" class="form-control" placeholder="Phone Number">
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fa-solid fa-building"></i></span>
+        </div>
+            <select class="custom-select mr-sm-2" id="job">
+                <option selected>Select job type</option>
+                <option>Designer</option>
+                <option>Manager</option>
+                <option>Accounting</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon5"><i class="fa-solid fa-lock"></i></span>
+            </div>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+            <small></small>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+             <span class="input-group-text" id="basic-addon6"><i class="fa-solid fa-lock"></i></span>
+            </div>
+            <input type="password" class="form-control" id="repeat-password" placeholder="Repeat password">
+            <small></small>
+        </div>
+        <div>
+            <input class="btn btn-primary" type="submit" value="Create Account">
+        </div>
+    <p >Have an account? <a id="log" href="facebook.com.vn">Log In</a></p>
+        </form>
+    </div>
+
+</div>
+</body>
+    <script src="js/register.js"></script>
+</html>

@@ -1,0 +1,47 @@
+*{
+
+    font-family: Tahoma;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.al{
+    max-width: 400px;
+}
+.container{
+    text-align: center;
+    margin: auto;
+    align-items: center;
+
+}
+.click-login{
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: #01A5ED;
+    color: white;
+    padding: 5px 5px;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+#fb{
+    background-color: #2100C1;
+}
+
+#log{
+    text-decoration: none;
+}
+.btn{
+    width: 100%;
+}
+
+
+
